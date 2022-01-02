@@ -19,12 +19,6 @@ export default {
           ]
         }
       ]
-    },
-    {
-      title: 'group',
-      name: 'group',
-      type: 'reference',
-      to: [{type: 'group'}]
     }
   ]
 }
