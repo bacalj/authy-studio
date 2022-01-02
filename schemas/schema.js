@@ -9,5 +9,5 @@ export default createSchema({
   types: schemaTypes.concat([
     webUser,
     note
-  ]),
+  ])
 })
