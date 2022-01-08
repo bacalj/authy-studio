@@ -7,6 +7,12 @@ export default {
       name: 'title',
       title: 'Title',
       type: 'string',
+    },
+    {
+      name: 'belongsTo',
+      title: 'User',
+      type: 'reference',
+      to: [ { type: 'webUser' } ]
     }
   ]
 }
