@@ -1,7 +1,10 @@
+import { MdPerson } from 'react-icons/md'
+
 export default {
   name: 'webUser',
-  title: 'Web User',
+  title: 'Website Users',
   type: 'document',
+  icon: MdPerson,
   fields: [
     {
       name: 'email',

@@ -1,7 +1,10 @@
+import { MdNote } from 'react-icons/md'
+
 export default {
   name: 'note',
-  title: 'Note',
+  title: 'Notes',
   type: 'document',
+  icon: MdNote,
   fields: [
     {
       name: 'title',
