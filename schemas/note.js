@@ -17,5 +17,11 @@ export default {
       type: 'reference',
       to: [ { type: 'webUser' } ]
     }
-  ]
+  ],
+  preview: {
+    select: {
+      title: 'title',
+      subtitle: 'belongsTo.email'
+    }
+  }
 }
